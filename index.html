@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexform</title>
+</head>
+<body>
+    <main>
+        <arcticle class="form">
+            <span>Contact form</span>
+            <p>Please fill in your information and we'll be sending your order.</p>
+            <form method="post">
+                <div class="your-name">
+                    <label class="name" for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="first-name">
+                    <input type="text" id="last-name" placeholder="last-name">
+                </div>
+                <div class="your-email">
+                    <label class="name" for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="your_email@gmail.com">
+                </div>
+                <div class="your-phone">
+                    <label class="phone" for="phone">Phone *</label>
+                    <input type="number" id="phone" placeholder="000" required>
+                    <input type="number" id="phone" placeholder="000" require>
+                    <input type="number" id="phone" placeholder="0000" require>
+                </div>
+                <div class="your_subject"> 
+                    <label class="subject" for="subject">Message subject *</label>
+                    <select id="subject">
+                        <option value="Other">Other</option>
+                        <option value="Other">Test</option>
+                        <option value="Other">Test two</option>
+                        <option value="Other">Test three</option>
+                    </select>
+                </div>
+                <div class="your_message"> 
+                    <label class="subject" for="message">Message *</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </arcticle>
+    </main>
+</body>
+</html>
