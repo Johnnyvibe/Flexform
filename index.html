@@ -13,29 +13,29 @@
             <span class="title">Contact form</span>
             <p class="subtitle">Please fill in your information and we'll be sending your order.</p>
             <form method="post">
-                <table>
+                <table class="table-form">
                     <tbody>
                         <tr>
                             <td>
                                 <label class="name" for="name">Your Name</label>
                             </td>
                             <td>
-                                <div><input type="text" id="name" placeholder="first-name"></div>
-                                <div><input type="text" id="last-name" placeholder="last-name"></div> 
+                                <div class="name__list">
+                                    <div class="name__item"><input type="text" id="name" placeholder="first-name"></div>
+                                    <div class="name__item"><input type="text" id="last-name" placeholder="last-name"></div>
+                                </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="name" for="email">Your Email</label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" placeholder="your_email@gmail.com">
                             </td>
                         </tr>
                     </tbody>
                 </table>
-
-                <div class="your-name">
-                    <label class="name" for="name">Your Name</label>
-                    <div class="text-name-one">    
-                        <input type="text" id="name" placeholder="first-name">
-                    </div>
-                    <div class="text-name-two">
-                        <input type="text" id="last-name" placeholder="last-name">
-                    </div>
-                </div>
                 <div class="your-email">
                     <label class="name" for="email">Your Email</label>
                     <input type="email" id="email" placeholder="your_email@gmail.com">

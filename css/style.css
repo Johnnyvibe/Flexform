@@ -11,10 +11,13 @@
     font-family: "Roboto Regular", sans-serif;
     color:#ffffff;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 p,
-span{
+span,
+td,
+tr{
     padding:0;
     margin:0;
 }
@@ -55,9 +58,23 @@ label{
     margin-right: 20px;
 }
 
-.your-name{
-    display:flex;
-    align-items: center;
+input{
+    font-size:14px;
+    color: #000000;
+    padding:10px 5px;
+}
+
+.table-form{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.name__item:nth-child(odd){
+    padding-right: 10px;
+}
+
+.name__item:nth-child(even){
+    padding-left:10px;
 }
 
 .your-email{
@@ -65,11 +82,13 @@ label{
     display: flex;
 }
 
-.text-name-one,
-.text-name-two{
-    min-width: 44%;
-    width: 50%;
-    margin-right: 15px;
+.name__list{
+    display: flex;
+}
+
+.name__item{
+    width:50%;
+    min-width: 50%;
 }
 
 #last-name,
