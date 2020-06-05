@@ -39,9 +39,11 @@
                                 <label class="phone" for="phone">Phone *</label>
                             </td>
                             <td>
-                                <input type="number" id="phone" placeholder="000" required>
-                                <input type="number" id="phone" placeholder="000" require>
-                                <input type="number" id="phone" placeholder="0000" require>
+                                <div class="test">
+                                    <input type="number" id="phone" placeholder="000" required>
+                                    <input type="number" id="phone" placeholder="000" require>
+                                    <input type="number" id="phone" placeholder="0000" require>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -65,13 +67,11 @@
                                 <textarea id="message" rows="4" required></textarea>
                             </td>
                         </tr>
-                        <div class="message-text"></div>
-                        <tr>
-                            <td></td>
-                            <td><input class="button" type="submit" value="Submit Form"></td>
-                        </tr>
-                    </tbody>
                 </table>
+                <hr>
+                <div>
+                    <input class="button" type="submit" value="Submit Form">
+                </div>  
             </form>
         </div>
         </section>

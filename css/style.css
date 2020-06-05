@@ -27,10 +27,7 @@ body{
     height: auto;
     background-image: url(https://images5.alphacoders.com/361/361914.jpg);
     background-repeat: no-repeat;
-    -moz-background-size: 100%; 
-    -webkit-background-size: 100%;
-    -o-background-size: 100%; 
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     box-sizing: border-box;
     padding: 0;
@@ -60,7 +57,7 @@ body{
 }
 
 label{
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
 input{
@@ -114,9 +111,11 @@ tr{
     padding: 10px 5px;
 }
 
-#subject option{
+#subject option,
+#message{
     color:#000000;
 }
+
 
 .button{
     width: 100%;
