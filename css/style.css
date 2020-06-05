@@ -113,3 +113,14 @@ tr{
     color: #000000;
     padding: 10px 5px;
 }
+
+#subject option{
+    color:#000000;
+}
+
+.button{
+    width: 100%;
+    background-color: transparent;
+    color:#ffffff;
+    border-color: #ffffff;
+}
